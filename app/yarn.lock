@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@google-cloud/firestore@3.7.3":
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-3.7.3.tgz#b8b69b39912e94ff0034218fdc961dd472ad735a"
+"@google-cloud/firestore@^3.8.6":
+  version "3.8.6"
+  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-3.8.6.tgz#9e6dea57323a5824563430a759244825fb01d834"
   dependencies:
     deep-equal "^2.0.0"
     functional-red-black-tree "^1.0.1"
-    google-gax "^1.13.0"
+    google-gax "^1.15.3"
     readable-stream "^3.4.0"
     through2 "^3.0.0"
 
@@ -20,12 +20,6 @@
     express "^4.16.4"
     minimist "^1.2.0"
     on-finished "^2.3.0"
-
-"@grpc/grpc-js@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.0.0.tgz#62a053cac12423b86cbfcf50c9d2e9eee82cf767"
-  dependencies:
-    semver "^6.2.0"
 
 "@grpc/grpc-js@~1.0.3":
   version "1.0.5"
@@ -517,7 +511,7 @@ google-auth-library@^5.0.0:
     jws "^4.0.0"
     lru-cache "^5.0.0"
 
-google-gax@^1.13.0:
+google-gax@^1.15.3:
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/google-gax/-/google-gax-1.15.3.tgz#e88cdcbbd19c7d88cc5fd7d7b932c4d1979a5aca"
   dependencies:
