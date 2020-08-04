@@ -1,0 +1,18 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - functions
+      - deploy
+      - Api
+      - --entry-point
+      - handler
+      - --region
+      - asia-northeast1
+      - --runtime
+      - nodejs12
+      - --ignore-file
+      - .gcloudignore
+      - --trigger-http
+    dir: './app'
+
+timeout: 1200s
