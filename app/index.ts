@@ -26,6 +26,11 @@ app.use(cors())
 app.options('*', cors())
 
 app.get('/', async (req: express.Request, res: express.Response) => {
+  if (!firestore) {
+    console.warn('firestore has not been initialized.')
+    res.status(200).send('SKIP')
+    return
+  }
   const docPath = 'test/1'
   const messages = ['大吉', '吉', '中吉', '小吉', '末吉', '凶']
   await firestore.doc(docPath).set({

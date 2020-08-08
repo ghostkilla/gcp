@@ -9,7 +9,7 @@ steps:
       - --region
       - asia-northeast1
       - --runtime
-      - nodejs10
+      - nodejs12
       - --ignore-file
       - .gcloudignore
       - --trigger-http

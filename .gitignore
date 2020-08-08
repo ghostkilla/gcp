@@ -3,3 +3,5 @@
 /.idea
 /**/*.js
 /**/*.js.map
+/app/config/logs/2020.08.04/
+/app/yarn-error.log
